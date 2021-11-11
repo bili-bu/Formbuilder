@@ -1,0 +1,27 @@
+.preview {
+  &__answer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    border: grey solid 1px;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    background-color: #9ba6b1;
+
+    h3 {
+      color: snow;
+    }
+
+    input {
+      padding: 0.5rem 1rem;
+      width: 15rem;
+    }
+
+    textarea {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0.5rem 1rem;
+      width: 15rem;
+    }
+  }
+}
